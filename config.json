@@ -1,13 +1,23 @@
 {
+  "baseUrl": "https://<baseUrl>/content/bcs/us/en/",
   "routes": [
-    "free-2-day-shipping-on-orders-over--50",
-    "20--off-one-full-price-item-terms---conditions",
-    "BURTON20",
-    "christmas-delivery",
-    "HikeandCamp",
-    "Backcountry-X-Samaya-Giveaway",
-    "backcountry-x-teva-t-cs"
-  ],
-  "dir": ["sc", "terms-and-conditions-pages"],
-  "baseUrl": "https://<baseUrl>/content/bcs/us/en/"
+    {
+      "folder": "explore-blog",
+      "files": ["ux-test-page", "running-shoe-guide"],
+      "children": [
+        {
+          "folder": "backcountry-bulletin",
+          "files": ["kz-test-page", "test-1", "test-2"]
+        },
+        {
+          "folder": "bc-podcast",
+          "files": ["page1", "page2", "page3"]
+        }
+      ]
+    },
+    {
+      "folder": "sc",
+      "files": ["marketing", "social"]
+    }
+  ]
 }
