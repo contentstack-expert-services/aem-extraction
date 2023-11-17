@@ -8,7 +8,7 @@ const utils = require("./utils");
 const routes = require("./config.json").routes;
 
 const createFile = async (file) => {
-  await utils.sleep(1000);
+  await utils.sleep(500);
   const res = await utils.makeApiCall({
     url: `${config.baseUrl}${file}`,
     method: "GET",
