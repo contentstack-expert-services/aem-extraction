@@ -1,0 +1,13 @@
+{
+  "routes": [
+    "free-2-day-shipping-on-orders-over--50",
+    "20--off-one-full-price-item-terms---conditions",
+    "BURTON20",
+    "christmas-delivery",
+    "HikeandCamp",
+    "Backcountry-X-Samaya-Giveaway",
+    "backcountry-x-teva-t-cs"
+  ],
+  "dir": ["sc", "terms-and-conditions-pages"],
+  "baseUrl": "https://<baseUrl>/content/bcs/us/en/"
+}
