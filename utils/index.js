@@ -64,6 +64,7 @@ const getFiles = (routes, treePath = "") =>
     return str;
   });
 
+
 module.exports = {
   sleep,
   writeFile,

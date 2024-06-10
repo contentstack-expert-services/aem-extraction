@@ -7,7 +7,8 @@
     "start": "node index.js",
     "prettify": "prettier --write .",
     "lint:fix": "eslint --fix --ext .js,.jsx,.ts,.tsx . --ignore-pattern './node_modules/' --ignore-pattern './buid/'",
-    "precommit": "npm run prettify && npm run lint:fix"
+    "precommit": "npm run prettify && npm run lint:fix",
+    "flatten" : "node ./utils/flatten.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,7 +16,8 @@
     "axios": "^1.6.2",
     "dotenv": "^16.3.1",
     "mkdirp": "^3.0.1",
-    "when": "^3.7.8"
+    "when": "^3.7.8",
+    "fs-readdir-recursive": "^1.1.0"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
